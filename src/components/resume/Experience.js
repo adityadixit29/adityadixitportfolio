@@ -11,31 +11,31 @@ const Experience = () => {
     >
       <div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
+          <p className="text-sm text-designColor tracking-[4px]">2022 - 2024</p>
           <h2 className="text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="Web Developer Intern"
+            subTitle="TechieShubhDeep IT Solutions (MAR 2023 - APR 2023)"
+            result="Gwalior"
+            des="At TechieShubhDeep IT Solutions, I successfully completed projects and fulfilled diverse responsibilities Developed booking and school management systems, and created captivating Figma designs for music search technology and healthcare websites"
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="Technical Content Writing Intern"
+            subTitle="GeeksforGeeks - (DEC 2022 - MAR 2023)"
+            result="Remote"
+            des="As a contributor to GeeksforGeeks, I have successfully written and published 16 tech based articles, they are plagiarism-free and provide valuable insights to the readers."
           />
           <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            title="Web Development Intern"
+            subTitle="The Sparks Foundation - (NOV 2022 - NOV 2022)"
+            result="Remote"
+            des="Implemented the Design for payment gateway service. Developed the payment gateway portal. Integrated the authentication facility for users."
           />
         </div>
       </div>
-      <div>
+      {/* <div>
         <div className="flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
           <h2 className="text-4xl font-bold">Trainer Experience</h2>
@@ -60,7 +60,7 @@ const Experience = () => {
             des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
           />
         </div>
-      </div>
+      </div> */}
     </motion.div>
   );
 };

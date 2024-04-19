@@ -1,6 +1,7 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { contactImg } from "../../assets/index";
+import { BsGithub } from 'react-icons/bs';
 
 const ContactLeft = () => {
   return (
@@ -16,8 +17,8 @@ const ContactLeft = () => {
           MERN Stack Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
+        UnderGrad With Good Problem-Solving Skills, The Ability to work well in a team, have good Leadership skills and communication skills.
+ Passionate about coding and loves to make a variety of Projects.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+91 7440900511</span>
@@ -29,15 +30,15 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <FaFacebookF />
-          </span>
-          <span className="bannerIcon">
+          <a href='https://github.com/adityadixit29' className="bannerIcon" target='blank'>
+          <BsGithub />
+          </a>
+          <a href='https://twitter.com/AdityaDixit2911' className="bannerIcon" target='blank'>
             <FaTwitter />
-          </span>
-          <span className="bannerIcon">
+          </a>
+          <a href='https://www.linkedin.com/in/aditya-dixit-499798225/' className="bannerIcon" target='blank'>
             <FaLinkedinIn />
-          </span>
+          </a>
         </div>
       </div>
     </div>
