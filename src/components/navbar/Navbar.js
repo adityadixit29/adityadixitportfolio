@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>
-        <img src={profile} alt="logo" className='h-[20%] w-[20%] rounded-[50%]'/>
+        <img src={profile} alt="logo" className='h-[10%] w-[10%] rounded-[50%]'/>
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
@@ -45,9 +45,7 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={profile} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                Developer with good problem-solving skills, the ability to work well in a team, and strong leadership and communication skills. Passionate about coding and loves building a variety of projects.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">

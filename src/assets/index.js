@@ -7,10 +7,12 @@ import testimonialOne from "./images/testmonial/testimonialOne.png";
 import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
-import profile from "./images/Profile.jpg"
+import profile from "./images/Profile.jpeg"
 import dashboard from "./images/Dashboard.png"
 import todo from "./images/Todo.png"
 import newsproject from "./images/NewsProject.png"
+import ProfileSense from "./images/ProfileSense.png"
+import BGVS from "./images/BGVS.png"
 
 export {
   logo,
@@ -25,5 +27,7 @@ export {
   profile,
   dashboard,
   todo,
-  newsproject
+  newsproject,
+  ProfileSense,
+  BGVS
 };

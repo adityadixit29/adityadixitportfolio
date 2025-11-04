@@ -17,8 +17,7 @@ const ContactLeft = () => {
           MERN Stack Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-        UnderGrad With Good Problem-Solving Skills, The Ability to work well in a team, have good Leadership skills and communication skills.
- Passionate about coding and loves to make a variety of Projects.
+        Developer with good problem-solving skills, the ability to work well in a team, and strong leadership and communication skills. Passionate about coding and loves building a variety of projects.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+91 7440900511</span>
